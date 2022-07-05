@@ -1,0 +1,14 @@
+node_modules/
+world/
+minecraft_server.jar
+users.json
+server.properties
+whitelist.json
+ops.json
+banned-ips.json
+banned-players.json
+usercache.json
+logs/
+eula.txt
+.env
+*.swp

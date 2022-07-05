@@ -1,0 +1,34 @@
+{
+  "id": "cloudron.papermc.app",
+  "title": "PaperMC Minecraft Server",
+  "author": "PaperMC Devs",
+  "description": "file://DESCRIPTION.md",
+  "icon": "file://logo.png",
+  "changelog": "file://CHANGELOG",
+  "tagline": "Multiplayer Server for Minecraft",
+  "version": "0.0.2",
+  "healthCheckPath": "/api/v1/healthcheck",
+  "tags": [ "game", "multiplayer" ],
+  "memoryLimit": 4000000000,
+  "httpPort": 3000,
+  "tcpPorts": {
+    "SERVER_PORT": {
+      "title": "Server Port",
+      "description": "Server Port where Minecraft clients connect",
+      "defaultValue": 25565
+    }
+  },
+  "manifestVersion": 2,
+  "minBoxVersion": "5.3.0",
+  "website": "https://minecraft.net/",
+  "contactEmail": "support@cloudron.io",
+  "documentationUrl": "https://docs.cloudron.io/apps/minecraft/",
+  "forumUrl": "https://forum.cloudron.io/category/49/minecraft",
+  "mediaLinks": [
+    "https://screenshots.cloudron.io/net.minecraft.cloudronapp/minecraft-01.png"
+  ],
+  "addons": {
+    "localstorage": {},
+    "ldap": {}
+  }
+}
